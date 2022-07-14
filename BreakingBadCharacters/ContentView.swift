@@ -32,25 +32,28 @@ struct ContentView: View {
         
         NavigationView {
             List(characters, id: \.char_id) { char in
-                
-                HStack {
-                    AnimatedImage(url: URL(string: char.img))
-                        .resizable()
-                        .scaledToFit()
-                        .frame(height: 50)
-                        .padding(.vertical, 4)
-                    VStack(alignment: .leading) {
-                        Text(char.name)
-                            .fontWeight(.semibold)
-                            .foregroundColor(.primary)
-                            .lineLimit(2)
-                        Text(char.portrayed)
-                            .font(.subheadline)
-                            .foregroundColor(.secondary)
-                        
+                NavigationLink(destination: CharactersDetailView(detail: char)) {
+                    HStack {
+                        AnimatedImage(url: URL(string: char.img))
+                            .resizable()
+                            .scaledToFit()
+                            .frame(height: 50)
+                            .padding(.vertical, 4)
+                        VStack(alignment: .leading) {
+                            Text(char.name)
+                                .fontWeight(.semibold)
+                                .foregroundColor(.primary)
+                                .lineLimit(2)
+                            Text(char.portrayed)
+                                .font(.subheadline)
+                                .foregroundColor(.secondary)
+                            
+                        }
                     }
                 }
-               
+                
+                
+                
             }
             .navigationTitle("All Characters")
             .task{

@@ -12,6 +12,7 @@
 		E5991CF828806D55000707A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5991CF728806D55000707A7 /* Assets.xcassets */; };
 		E5991CFB28806D55000707A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5991CFA28806D55000707A7 /* Preview Assets.xcassets */; };
 		E5991D0728807E8F000707A7 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E5991D0628807E8F000707A7 /* SDWebImageSwiftUI */; };
+		E5991D0928808362000707A7 /* CharactersDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5991D0828808362000707A7 /* CharactersDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		E5991CF528806D52000707A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E5991CF728806D55000707A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5991CFA28806D55000707A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E5991D0828808362000707A7 /* CharactersDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				E5991CF328806D52000707A7 /* BreakingBadCharactersApp.swift */,
 				E5991CF528806D52000707A7 /* ContentView.swift */,
+				E5991D0828808362000707A7 /* CharactersDetailView.swift */,
 				E5991CF728806D55000707A7 /* Assets.xcassets */,
 				E5991CF928806D55000707A7 /* Preview Content */,
 			);
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5991D0928808362000707A7 /* CharactersDetailView.swift in Sources */,
 				E5991CF628806D52000707A7 /* ContentView.swift in Sources */,
 				E5991CF428806D52000707A7 /* BreakingBadCharactersApp.swift in Sources */,
 			);
